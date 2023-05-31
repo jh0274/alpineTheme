@@ -38,7 +38,8 @@ css({
         '--cols': (props) => props.images.length < 2 ? props.images.length : 2
       },
       img: {
-        objectFit: 'scale-down',
+        objectFit: 'cover',
+        width: '100%',
         aspectRatio: '9 / 16',
         borderRadius: '{radii.md}'
       }
