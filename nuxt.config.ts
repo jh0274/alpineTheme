@@ -14,7 +14,7 @@ const envModules = {
 
 const updateModule = defineNuxtModule({
   meta: {
-    name: '@jh0274/alpineCustom'
+    name: '@jh0274/alpinecustom'
   },
   setup (_, nuxt) {
     if (nuxt.options.dev) {

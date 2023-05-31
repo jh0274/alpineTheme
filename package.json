@@ -1,5 +1,5 @@
 {
-  "name": "@nuxt-themes/alpine",
+  "name": "@jh0274/alpinecustom",
   "version": "1.6.0",
   "type": "module",
   "exports": "./nuxt.config.ts",
