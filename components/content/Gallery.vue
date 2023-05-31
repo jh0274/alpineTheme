@@ -18,8 +18,8 @@ defineProps({
         v-for="(image, index) in images"
         :key="index"
         :src="image"
-        :width="16"
-        :height="9"
+        :width="9"
+        :height="16"
       />
     </div>
   </section>
@@ -38,9 +38,8 @@ css({
         '--cols': (props) => props.images.length < 2 ? props.images.length : 2
       },
       img: {
-        objectFit: 'cover',
-        width: '100%',
-        aspectRatio: '16 / 9',
+        objectFit: 'scale-down',
+        aspectRatio: '9 / 16',
         borderRadius: '{radii.md}'
       }
     }
