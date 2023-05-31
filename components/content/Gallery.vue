@@ -39,7 +39,7 @@ css({
       },
       img: {
         objectFit: 'cover',
-        width: '30%',
+        width: '75%',
         aspectRatio: '9 / 16',
         borderRadius: '{radii.md}'
       }
