@@ -1,9 +1,9 @@
 {
   "name": "@jh0274/alpinecustom",
-  "version": "1.6.0",
+  "version": "0.0.1",
   "type": "module",
   "exports": "./nuxt.config.ts",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@7.30.5",
   "files": [
     "assets",
     "components",
